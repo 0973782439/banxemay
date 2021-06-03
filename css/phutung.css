@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+body{
+    width: 1000px;
+    box-shadow: 0 0 10px rgba(0,0,0,10); 
+    height: 2100px;
+}
+.wapper .header{
+    width: 100%;
+    height: 100%;
+}
+.wapper .nav{
+    background: red;
+    width: 100%;
+     height: 50px;
+}
+.danhmuc{
+    float: left;
+    width: 50%;
+}
+.danhmuc .navi{
+    display: flex;
+    position: absolute;
+ }
+.danhmuc li{
+   list-style: none;
+    margin: 0;  
+    line-height: 50px;
+    padding: 0 15px 0 0;
+}
+.danhmuc a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.subnav{
+    position: absolute;
+    background-color: red;
+    display: none;  
+    padding:0;
+}
+.subnav li{
+    border-bottom: 1px solid white;
+   padding: 0px 10px 0px 20px;
+}
+.navi:hover .subnav{
+    display: block;
+}
+.subnav li:hover{
+    background: black;
+}
+.subnav a{
+    
+}
+.search{
+    float: right;
+    width: 50%;
+    line-height: 50px;
+}
+input{
+    padding: 4px 5px;
+    border: none;
+    outline: none;
+}
+.icon{
+    font-size: 18px;
+    color: white;
+}
+.banner-icon{
+    background: red;
+    width: 100%;
+    height: 100px;
+}
+.banner-icon ul{
+    display: flex;
+    padding-top: 25px;
+}
+.banner-icon li{
+  list-style: none;
+}
+.banner-icon b{
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.banner-icon span{
+    color: yellow;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.conten h1{
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+.conten p{
+    line-height: 30px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+/* .banner-item{
+    padding-top: 20px;
+} */
+
+.banner-conten ul{
+    display: flex;
+    padding:40px;
+}
+.banner-conten li{
+    list-style: none;
+    /* margin: 0 10px 0 10px;
+    border: 1px solid black; */
+}
+.banner-item{
+    padding-top: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+.banner-item h2{
+    background: red;
+    width: 20%;
+    height: 35px;
+    padding-left: 10px;
+    margin:0 0 10px 10px;
+    color: white;
+    line-height: 35px;
+}
+.banner-item .slide,.banner-item .slide-one{
+    width: 200%;
+    display: flex;
+    padding:40px;
+    transition:  all 0.5s ease;
+}
+
+.banner-item li{
+    list-style: none;
+    margin: 0 10px 0 10px;
+    border: 1px solid black;
+}
+.anh{
+    text-align: center;
+    padding: 10px 0;
+}
+.thongtin{
+    text-align: center;
+    padding: 10px 3px;
+}
+.price{
+    color: red;
+    background: seashell;
+    text-align: center;
+    width: 210px;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 0;
+}
+.banner-item li:hover{
+    border: 1px solid red;
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+.footer{
+    background: red;
+    height: 80px;
+    color: #334862;
+    font-size: 25px;
+    padding-left: 10px;
+    line-height: 80px;
+}

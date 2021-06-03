@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="./css/rps.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+</head>
+<style>
+    body{
+        margin: 0 auto;
+        width: 100%;
+    }
+    #app{
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    width: 550px;
+    height: 400px;
+    margin: 0 auto;
+    }
+    .header{
+        background:black;
+        height: 60px;
+        line-height: 60px;
+        text-transform: uppercase;  
+        text-align: center;
+        color: white;
+    }
+    input{
+        outline: none;
+        padding:5px 20px;
+    }
+    table{
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+</style>
+<body>
+    <section id="header">
+        <div id="navigation">
+            <div class="bars">  <i class="manu-nav-mobile fas fa-bars"></i></div>
+            <div class="logo">
+                <img src="../Đồ án 2/bannerAT.jpg" width="100%" height="100%">
+            </div>
+            <div id="nav-menu">
+                <ul id="nav">
+                    <li><a href="html.html">TRANG CHỦ </a></li>
+                
+                    <li><a href="">GIỚI THIỆU</a></li> 
+    
+                    <li> 
+                        <a href="">SẢN PHẨM</a>
+                    <a href="#"><i class="icon fas fa-sort-down"></i></a>
+                        <ul class="subnav">
+                            <li><a href="#xenhapkhau">XE NHẬP KHẨU</a></li>
+                            <li><a href="#xehonda">HONDA</a></li>
+                            <li><a href="#xeyamaha">YAMAHA</a></li>
+                            <li><a href="#xesuzuki">SUZUKI</a></li>
+                            <li><a href="">SYM</a></li>
+                            <li><a href="">DKBIKE</a></li>
+                        </ul>
+                    </li>
+    
+                    <li><a href="">KHUYẾN MÃI</a></li>
+    
+                    <li>
+                        <a href="">DỊCH VỤ</a>
+                    <a href="#"><i class="icon fas fa-sort-down"></i></a>
+                        <ul class="subnav">
+                            <li><a href="">CHO VAY TRẢ GÓP</a></li>
+                            <li><a href="">LÀM BIỂN SỐ TỈNH</a></li>
+                        </ul>
+                    </li>
+    
+                    <li>
+                        <a href="">MUA TRẢ GÓP</a>
+                    <a href="#"><i class="icon fas fa-sort-down"></i></a>
+                        <ul class="subnav">
+                            <li><a href="">THỦ TỤC</a></li>
+                        </ul>
+                    </li>
+    
+                    <li><a href="">PHỤ TÙNG</a></li>
+                    <li><a href="lienhe.html">LIÊN HỆ </a></li>
+                   
+                </ul>
+               
+            </div>
+
+
+            <label for="nav-mobile-input" class="bars">  <i class="manu-nav-mobile fas fa-bars"></i></label>
+            <input type="checkbox" hidden name="" class="nav-input" id="nav-mobile-input">
+
+
+
+            <label for="nav-mobile-input" hidden class="overlay">
+                <!-- NAV=MOBILE -->
+                <div id="nav-menu-mobile">
+                    <div class="nav-close"><i class="fas fa-times"></i></div>
+                    <ul id="nav-mobile">
+                        <li><a href="./html.html">TRANG CHỦ </a></li>
+                    
+                        <li><a href="">GIỚI THIỆU</a></li> 
+        
+                        <li> 
+                            <a href="">SẢN PHẨM</a>
+                       
+                            <ul class="subnav-mobile">
+                                <li><a href="#xenhapkhau">XE NHẬP KHẨU</a></li>
+                                <li><a href="#xehonda">HONDA</a></li>
+                                <li><a href="#xeyamaha">YAMAHA</a></li>
+                                <li><a href="#xesuzuki">SUZUKI</a></li>
+                                <li><a href="">SYM</a></li>
+                                <li><a href="">DKBIKE</a></li>
+                            </ul>
+                        </li>
+        
+                        <li><a href="">KHUYẾN MÃI</a></li>
+        
+                        <li>
+                            <a href="">DỊCH VỤ</a>
+                       
+                            <ul class="subnav-mobile">
+                                <li><a href="">CHO VAY TRẢ GÓP</a></li>
+                                <li><a href="">LÀM BIỂN SỐ TỈNH</a></li>
+                            </ul>
+                        </li>
+        
+                        <li>
+                            <a href="">MUA TRẢ GÓP</a>
+                       
+                            <ul class="subnav-mobile">
+                                <li><a href="">THỦ TỤC</a></li>
+                            </ul>
+                        </li>
+        
+                        <li><a href="">PHỤ TÙNG</a></li>
+                        <li><a href="">LIÊN HỆ </a></li>
+                       
+                    </ul>
+                   
+                </div>
+
+            </label>
+            <!-- <div class="bars">  <i class="manu-nav-mobile fas fa-bars"></i></div> -->
+    
+            <div id="search">
+                <form>
+                    <input type="text" placeholder="Tìm kiếm " >
+                    <a href="#"><i class="timkiem search fas fa-search"></i></a>
+                </form>
+                <div class="user">
+                    <a href="./user.html"><i class="icon-item fas fa-users"></i></a>
+                </div>
+                <div class="cart">
+                    <a href="./cart.html"><i class="icon-item fas fa-cart-plus"></i></a>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+    <section>
+        <div id="app">
+            <div class="header">
+                <h2>
+                    Liên hệ
+                </h2>
+            </div>
+            <table>
+                <tr>
+                    <td>Họ tên </td>
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="" name="" id="name"></td>
+                    <td id="errName" style="color: red;">*</td>
+                </tr>
+                <tr>
+                    <td>Địa chỉ  </td>
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="" name="" id="dc"></td>
+                    <td id="errDc" style="color: red;">*</td>
+                </tr>
+                <tr>
+                    <td>Email  </td>
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="" name="" id="em"></td>
+                    <td id="errEm" style="color: red;">*</td>
+                </tr>
+                <tr>
+                    <td>Số Điện thoại  </td>    
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="" name="" id="sdt"></td>
+                    <td id="errSdt" style="color: red;">*</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button onclick="gui()" >Gửi đi</button></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <br>
+    <section >
+        <div class="footer">
+
+            <div class="grid wide ">
+                <div class="row">
+                    <div class="col l-4 m-0 c-0">
+                        <div class="logo">
+                            <img src="../Đồ án 2/Untitled-1.jpg" width="100%" height="100%">
+                            <div class="mxh">
+                                <ul>
+                                    <li><a href="https://www.facebook.com/rin.tu.148/"><i class="iteam fab fa-facebook"></i></a></li>
+                                    <li><a href="https://www.facebook.com/rin.tu.148/"><i class="iteam fab fa-youtube"></i></a></li>
+                                    <li><a href="https://www.facebook.com/rin.tu.148/"><i class="iteam fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-8 m-12 c-12">
+                        <div class="truso">
+                            <h3>Cơ Sở Khoái Châu</h3>
+                           <h5><a href=""><i class="far fa-location-arrow"></i>Địa chỉ: Thành Công-KC  -Hưng Yên</a></h5>
+                           <h5><a href=""><i class="far fa-phone"></i> SDT: 0973783439 </a></h5>
+                           <h5><a href=""><i class="fas fa-envelope"></i> Email: levatu01@gmail.com</a></h5>
+                           <h5><a href=""><i class="fas fa-globe-europe"></i> http://xemayanhtu.com</a></h5>
+                        </div>
+                        <div class="truso">
+                            <h3>Cơ Sở Kim Động</h3>
+                           <h5><a href=""><i class="far fa-location-arrow"></i> Địa chỉ: Chợ Hang-KĐ-Hưng Yên</a></h5>
+                           <h5><a href=""><i class="far fa-phone"></i> SDT: 0973783439 </a></h5>
+                           <h5><a href=""><i class="fas fa-envelope"></i> Email: levatu01@gmail.com</a></h5>
+                           <h5><a href=""><i class="fas fa-globe-europe"></i> http://xemayanhtu.com</a></h5>
+                        </div>
+                        <div class="truso">
+                            <h3>Cơ Sở Mỹ Hào</h3>
+                           <h5><a href=""><i class="far fa-location-arrow"></i> Địa chỉ: Ngã 4 PN-MH-Hưng Yên</a></h5>
+                           <h5><a href=""><i class="far fa-phone"></i> SDT: 0973783439 </a></h5>
+                           <h5><a href=""><i class="fas fa-envelope"></i> Email: levatu01@gmail.com</a></h5>
+                           <h5><a href=""><i class="fas fa-globe-europe"></i> http://xemayanhtu.com</a></h5>
+                        </div>
+                    </div>           
+                        
+                </div>
+            </div>
+            
+            <div class="grid wide ">
+                <div class="row">
+                    <div class="col l-12 m-12 c-12">
+                        <div class="mxh">
+                            <ul>
+                                <li><a href="https://www.facebook.com/rin.tu.148/"><img src="../Đồ án 2/visa.png" ></a></li>
+                                <li><a href="https://www.facebook.com/rin.tu.148/"><img src="../Đồ án 2/grab.png" width="90%" height="90%"></i></a></li>
+                                <li><a href="https://www.facebook.com/rin.tu.148/"><img src="../Đồ án 2/grabfood.png" width="90%" height="90%"></a></li>
+                            </ul>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div id="theend">
+            Bản quyền thuộc về TuVanLe (2020)
+        </div>
+    </section>
+
+
+
+    <script>
+        function gui() {
+        var myName = document.getElementById("name").value;
+            if(myName == null || myName == '' || myName.length >15)
+            {
+                document.getElementById("errName").innerHTML="có lỗi";
+            }
+            else{
+                document.getElementById("errName").innerHTML="ok";
+            }
+        var myDc = document.getElementById('dc').value;
+            if(myDc == null || myDc == '' || myDc.leght > 50 )
+            {
+                document.getElementById("errDc").innerHTML="Có lỗi";
+            }
+            else{
+                document.getElementById("errDc").innerHTML="ok";
+            }
+        var myEm=document.getElementById("em").value;
+            {
+                if(myEm == null || myEm == '' || myEm.leght >20)
+                {
+                    document.getElementById("errEm").innerHTML="có lỗi";
+                }
+                else{
+                    document.getElementById("errEm").innerHTML="ok";
+
+                }
+            }
+        var mySdt=document.getElementById("sdt").value;
+        {
+            if(mySdt == null || mySdt == '' || mymySdtEm.leght >10)
+            {
+                document.getElementById("errSdt").innerHTML="có lỗi";
+            }
+            else{
+                document.getElementById("errSdt").innerHTML="ok";
+
+            }
+        }
+        }
+    </script>
+</body>
+</html>

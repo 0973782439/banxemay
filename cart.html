@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>giỏ hàng</title>
+
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/rps.css">
+    
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+</head>
+<style>
+    .center{
+        height: 500px;
+    }
+</style>
+<body>
+    <section id="header">
+        <div id="navigation">
+            <!-- <div class="bars">  <i class="manu-nav-mobile fas fa-bars"></i></div> -->
+            <div class="logo">
+                <img src="../Đồ án 2/bannerAT.jpg" width="100%" height="100%">
+            </div>
+            <div id="nav-menu">
+                <ul id="nav">
+                    <li><a href="./html.html">TRANG CHỦ </a></li>
+                    
+                    <li><a href="">GIỚI THIỆU</a></li> 
+    
+                    <li> 
+                        <a href="">SẢN PHẨM</a>
+                    <a href="#"><i class="icon fas fa-sort-down"></i></a>
+                        <ul class="subnav">
+                            <li><a href="#xenhapkhau">XE NHẬP KHẨU</a></li>
+                            <li><a href="#xehonda">HONDA</a></li>
+                            <li><a href="#xeyamaha">YAMAHA</a></li>
+                            <li><a href="#xesuzuki">SUZUKI</a></li>
+                            <li><a href="">SYM</a></li>
+                            <li><a href="">DKBIKE</a></li>
+                        </ul>
+                    </li>
+    
+                    <li><a href="">KHUYẾN MÃI</a></li>
+    
+                    <li>
+                        <a href="">DỊCH VỤ</a>
+                    <a href="#"><i class="icon fas fa-sort-down"></i></a>
+                        <ul class="subnav">
+                            <li><a href="">CHO VAY TRẢ GÓP</a></li>
+                            <li><a href="">LÀM BIỂN SỐ TỈNH</a></li>
+                        </ul>
+                    </li>
+    
+                    <li>
+                        <a href="">MUA TRẢ GÓP</a>
+                    <a href="#"><i class="icon fas fa-sort-down"></i></a>
+                        <ul class="subnav">
+                            <li><a href="">THỦ TỤC</a></li>
+                        </ul>
+                    </li>
+    
+                    <li><a href="">PHỤ TÙNG</a></li>
+                    <li><a href="">LIÊN HỆ </a></li>
+                   
+                </ul>
+               
+            </div>
+
+
+            <label for="nav-mobile-input" class="bars">  <i class="manu-nav-mobile fas fa-bars"></i></label>
+            <input type="checkbox" hidden name="" class="nav-input" id="nav-mobile-input">
+
+
+
+            <label for="nav-mobile-input" hidden class="overlay">
+                <!-- NAV=MOBILE -->
+                <div id="nav-menu-mobile">
+                    <div class="nav-close"><i class="fas fa-times"></i></div>
+                    <ul id="nav-mobile">
+                        <li><a href="./html.html">TRANG CHỦ </a></li>
+                    
+                        <li><a href="">GIỚI THIỆU</a></li> 
+        
+                        <li> 
+                            <a href="">SẢN PHẨM</a>
+                       
+                            <ul class="subnav-mobile">
+                                <li><a href="#xenhapkhau">XE NHẬP KHẨU</a></li>
+                                <li><a href="#xehonda">HONDA</a></li>
+                                <li><a href="#xeyamaha">YAMAHA</a></li>
+                                <li><a href="#xesuzuki">SUZUKI</a></li>
+                                <li><a href="">SYM</a></li>
+                                <li><a href="">DKBIKE</a></li>
+                            </ul>
+                        </li>
+        
+                        <li><a href="">KHUYẾN MÃI</a></li>
+        
+                        <li>
+                            <a href="">DỊCH VỤ</a>
+                       
+                            <ul class="subnav-mobile">
+                                <li><a href="">CHO VAY TRẢ GÓP</a></li>
+                                <li><a href="">LÀM BIỂN SỐ TỈNH</a></li>
+                            </ul>
+                        </li>
+        
+                        <li>
+                            <a href="">MUA TRẢ GÓP</a>
+                       
+                            <ul class="subnav-mobile">
+                                <li><a href="">THỦ TỤC</a></li>
+                            </ul>
+                        </li>
+        
+                        <li><a href="">PHỤ TÙNG</a></li>
+                        <li><a href="">LIÊN HỆ </a></li>
+                       
+                    </ul>
+                   
+                </div>
+
+            </label>
+            <!-- <div class="bars">  <i class="manu-nav-mobile fas fa-bars"></i></div> -->
+    
+            <div id="search">
+                <form>
+                    <input type="text" placeholder="Tìm kiếm " >
+                    <a href="#"><i class="timkiem search fas fa-search"></i></a>
+                </form>
+                <div class="user">
+                    <a href="./user.html"><i class="icon-item fas fa-users"></i></a>
+                </div>
+                <div class="cart">
+                    <a href="./cart.html"><i class="icon-item fas fa-cart-plus"></i></a>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    <section class="center">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-2-4">
+                    <div class="">Sản phẩm</div>
+                </div>
+                <div class="col l-2-4">
+                    <div class="">Giá</div>
+                </div>
+                <div class="col l-2-4">
+                    <div class="">Số lượng</div>
+                </div>
+                <div class="col l-2-4">
+                    <div class="">Tổng tiền</div>
+                </div>
+            </div>
+            <div class="row-conten">
+                <div class="row">
+                    <div class="col l-2-4">
+                        <div class=""><img src="../Đồ án 2/hondaputure.png" width="30%" height="30%"></div>
+                    </div>
+                    <div class="col l-2-4">
+                        <div class="">500</div>
+                    </div>
+                    <div class="col l-2-4">
+                        <div class=""><input type="text" name="" id=""></div>
+                    </div>
+                    <div class="col l-2-4">
+                        <div class="">1000</div>
+                    </div>
+                    <div class="col l-2-4">
+                        <div class=""><button>X</button> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row-conten">
+                <div class="row">
+                    <div class="col l-2-4">
+                        <div class=""><img src="../Đồ án 2/hondaputure.png" width="30%" height="30%"></div>
+                    </div>
+                    <div class="col l-2-4">
+                        <div class="">500</div>
+                    </div>
+                    <div class="col l-2-4">
+                        <div class=""><input type="text" name="" id=""></div>
+                    </div>
+                    <div class="col l-2-4">
+                        <div class="">1000</div>
+                    </div>
+                    <div class="col l-2-4">
+                        <div class=""><button>X</button> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row-buy">
+                <div class="row">
+                    <div class="col l-2-4">
+                        <div class=""><button>Thanh toán</button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay">
+
+            </div>
+        </div>
+
+    </section>
+    <section >
+        <div class="footer">
+
+            <div class="grid wide ">
+                <div class="row">
+                    <div class="col l-4 m-0 c-0">
+                        <div class="logo">
+                            <img src="../Đồ án 2/Untitled-1.jpg" width="100%" height="100%">
+                            <div class="mxh">
+                                <ul>
+                                    <li><a href="https://www.facebook.com/rin.tu.148/"><i class="iteam fab fa-facebook"></i></a></li>
+                                    <li><a href="https://www.facebook.com/rin.tu.148/"><i class="iteam fab fa-youtube"></i></a></li>
+                                    <li><a href="https://www.facebook.com/rin.tu.148/"><i class="iteam fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-8 m-12 c-12">
+                        <div class="truso">
+                            <h3>Cơ Sở Khoái Châu</h3>
+                           <h5><a href=""><i class="far fa-location-arrow"></i>Địa chỉ: Thành Công-KC  -Hưng Yên</a></h5>
+                           <h5><a href=""><i class="far fa-phone"></i> SDT: 0973783439 </a></h5>
+                           <h5><a href=""><i class="fas fa-envelope"></i> Email: levatu01@gmail.com</a></h5>
+                           <h5><a href=""><i class="fas fa-globe-europe"></i> http://xemayanhtu.com</a></h5>
+                        </div>
+                        <div class="truso">
+                            <h3>Cơ Sở Kim Động</h3>
+                           <h5><a href=""><i class="far fa-location-arrow"></i> Địa chỉ: Chợ Hang-KĐ-Hưng Yên</a></h5>
+                           <h5><a href=""><i class="far fa-phone"></i> SDT: 0973783439 </a></h5>
+                           <h5><a href=""><i class="fas fa-envelope"></i> Email: levatu01@gmail.com</a></h5>
+                           <h5><a href=""><i class="fas fa-globe-europe"></i> http://xemayanhtu.com</a></h5>
+                        </div>
+                        <div class="truso">
+                            <h3>Cơ Sở Mỹ Hào</h3>
+                           <h5><a href=""><i class="far fa-location-arrow"></i> Địa chỉ: Ngã 4 PN-MH-Hưng Yên</a></h5>
+                           <h5><a href=""><i class="far fa-phone"></i> SDT: 0973783439 </a></h5>
+                           <h5><a href=""><i class="fas fa-envelope"></i> Email: levatu01@gmail.com</a></h5>
+                           <h5><a href=""><i class="fas fa-globe-europe"></i> http://xemayanhtu.com</a></h5>
+                        </div>
+                    </div>           
+                        
+                </div>
+            </div>
+            
+            <div class="grid wide ">
+                <div class="row">
+                    <div class="col l-12 m-12 c-12">
+                        <div class="mxh">
+                            <ul>
+                                <li><a href="https://www.facebook.com/rin.tu.148/"><img src="../Đồ án 2/visa.png" ></a></li>
+                                <li><a href="https://www.facebook.com/rin.tu.148/"><img src="../Đồ án 2/grab.png" width="90%" height="90%"></i></a></li>
+                                <li><a href="https://www.facebook.com/rin.tu.148/"><img src="../Đồ án 2/grabfood.png" width="90%" height="90%"></a></li>
+                            </ul>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div id="theend">
+            Bản quyền thuộc về TuVanLe (2020)
+        </div>
+    </section>
+
+    <script>
+    </script>
+</body>
+</html>
